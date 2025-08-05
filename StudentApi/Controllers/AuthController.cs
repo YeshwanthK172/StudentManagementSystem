@@ -13,7 +13,6 @@ public class AuthController : ControllerBase
         _configuration = configuration;
     }
 
-    // ✅ Login API
     [HttpPost("Login")]
     public IActionResult Login([FromBody] LoginRequest request)
     {
