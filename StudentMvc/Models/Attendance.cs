@@ -2,7 +2,7 @@
 {
     public class Attendance
     {
-        public DateTime Date { get; set; }
+        public DateTime Date { get; set; } // format changed
         public DateTime? CheckIn { get; set; }
         public DateTime? CheckOut { get; set; }
         public int Hours { get; set; }
