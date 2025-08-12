@@ -2,7 +2,7 @@
 using StudentMvc.Models;
 using System.Net.Http;
 using System.Net.Http.Json;
-
+//pass the dbType and LoggerType in session
 namespace StudentMvc.Controllers
 {
     public class LoginController : Controller
